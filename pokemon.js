@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     `;
                     document.getElementById("pokemon-info").innerHTML = pokemonInfo;
                 })
-                .catch(error => console.error("Error al obtener la información del Pokémon:", error));
+                .catch(error => console.error("Error al obtener la información del Pokemon:", error));
         }
     });
 });

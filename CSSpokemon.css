@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.pokemon-table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.pokemon-table th,
+.pokemon-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}

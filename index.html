@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Pokémon</title>
+    <link rel="stylesheet" href="CSSpokemon.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Pokémon</h1>
+        <table id="pokemon-table" class="pokemon-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                </tr>
+            </thead>
+            <tbody id="pokemon-list"></tbody>
+        </table>
+        <div id="pokemon-info" class="pokemon-info"></div>
+        <div class="pagination">
+            <button id="atr-btn">Atrás</button>
+            <button id="sig-btn">Adelante</button>
+        </div>
+    </div>
+    <script src="pokemon.js"></script>
+</body>
+</html>
